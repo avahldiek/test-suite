@@ -72,7 +72,7 @@ mark_as_advanced(TEST_SUITE_REMOTE_CLIENT TEST_SUITE_REMOTE_USER TEST_SUITE_REMO
 set(TEST_SUITE_RUN_UNDER "" CACHE STRING "RunSafely.sh run-under (-u) parameter")
 
 # run type/benchmark size configuration (mostly for SPEC at the moment)
-set(TEST_SUITE_RUN_TYPE "train" CACHE STRING
+set(TEST_SUITE_RUN_TYPE "ref" CACHE STRING
     "Type of benchmark inputs (may be test,train or ref)")
 
 get_filename_component(CMAKE_C_COMPILER_DIRECTORY ${CMAKE_C_COMPILER} DIRECTORY)
